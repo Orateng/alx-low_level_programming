@@ -1,0 +1,22 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main (void) {
+
+   int n = 0
+ 
+   if( n < ++n ) {
+      printf("n is less\n" );
+   } else if( n > --n )	{
+      printf("n is not less\n" );
+   }
+   
+   printf("value of n is : %d\n", n);
+ 
+   return 0;
+}
+
