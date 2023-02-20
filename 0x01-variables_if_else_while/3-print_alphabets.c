@@ -1,22 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Putchars prints the alphabet in lowercase, and then in uppercase.
+ * main - Entry point
+ * Description: Prints the alphabet in lowercase, and then in uppercase.
  *
- * Return: Always 0.
+ * Return: always 0.
  */
 
 int main(void)
 {
+	int n = 97;
+	int m = 65;
 
-	char c;
-
-for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-
-for (c = 'A'; c <= 'Z'; c++)
-	putchar(c);
-
+	while (n <= 122)
+	{
+	putchar(n);
+	n++;
+	}
+	while (m <= 90)
+	{
+	putchar(m);
+	m++;
+	}
 	putchar('\n');
 
 	return (0);
