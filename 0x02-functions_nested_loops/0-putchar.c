@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
-* main - prit _putchar
-* is written by mbah
+* main - print _putchar
+*
 * Return: 0 (Success)
 */
 
