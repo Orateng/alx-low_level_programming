@@ -2,10 +2,19 @@
 #define main_h
 /**
  * main - Prototype defined for declaring execution
- * @n: reset to pointer
+ * _putchar - input description
+ * @*n: reset to pointer
+ * @c: input output
+ * @*a: input output
+ * @*b: input output
+ * @*s: input output
+ * @*str: input output
+ * @*src: input output
+ * @*dest: input output
+ * Return: On success 1.
  */
 
-int _putchar(char c)
+int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
