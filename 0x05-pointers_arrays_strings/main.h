@@ -11,6 +11,7 @@
  * @*str: input output
  * @*src: input output
  * @*dest: input output
+ * @s: input output
  * Return: On success 1.
  */
 
