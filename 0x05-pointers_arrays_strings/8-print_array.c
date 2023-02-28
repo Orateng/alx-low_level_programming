@@ -1,0 +1,25 @@
+#include "main.h"
+#include <string.h>
+#include <stdio.h>
+/**
+ * print_array - function prints half a string
+ * Description: prints half of a string
+ * @a: array name
+ * @n: number of elements of array print
+ * Return: parameter's input
+ */
+
+void print_array(int *a, int n)
+{
+	int i;
+
+	if (x % 2 == 1)
+	{
+		printf("%d,", a[i]);
+	}
+	if (i == (n - 1))
+
+		printf("%d", a[n - 1]);
+	}
+	_putchar('\n');
+}
