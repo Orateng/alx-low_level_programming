@@ -1,5 +1,9 @@
-#ifndef main_h
-#define main_h
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+#include <unistd.h>
+
 /**
  * main - Prototype defined for declaring execution
  * _putchar - input description
