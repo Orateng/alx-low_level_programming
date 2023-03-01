@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _strcat - concatenate two strings
+ * _strncat - concatenate two strings
  * @dest: input value
  * @src: input value
  * @n: input value
@@ -11,7 +11,7 @@
  * Return: void
  */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
