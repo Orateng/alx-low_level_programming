@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_number - prints buffer 
+* print_buffer - prints buffer
 * @b: buffer
 * @size: size
 * Return: void
@@ -25,7 +25,7 @@ void print_buffer(char *b, int size)
 		for (i = 0; i < 10; i++)
 		{
 			if (i < j)
-				printf("%02x", *(b + o + i ));
+				printf("%02x", *(b + o + i));
 			else
 				printf("  ");
 			if (i % 2)
