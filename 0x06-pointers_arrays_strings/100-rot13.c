@@ -7,12 +7,12 @@
  * Return: pointer *s
  */
 
-char *rot13(char *s);
+char *rot13(char *s)
 {
 	int i;
 	int j;
-	char data[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char s2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -20,7 +20,7 @@ char *rot13(char *s);
 		{
 			if (s[i] == data1[j])
 			{
-				s[i] = datarot[j]);
+				s[i] = datarot[j];
 				break;
 			}
 		}
