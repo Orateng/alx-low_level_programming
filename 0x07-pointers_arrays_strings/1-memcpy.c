@@ -1,6 +1,5 @@
-
 #include "main.h"
- #include <string.h>
+#include <string.h>
 /**
 * _memcpy - prints buffer in hexa
 * @dest: memory where is stored
@@ -11,8 +10,8 @@
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i = 0;
 	int r = 0;
+	int i = n;
 
 	for (; r < i; r++)
 	{
