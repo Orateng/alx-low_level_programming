@@ -3,9 +3,9 @@
  * jump_search - Searches for a value in  array
  * @array: A pointer to the first element in the array
  * @size: The number of elements in the array
- * @Value: The value to search for.
+ * @value: The value to search for.
  * Return: Return value located, or -1 if array is NULL
- * */
+ */
 int jump_search(int *array, size_t size, int value)
 {
 	size_t i, jump, step;
