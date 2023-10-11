@@ -5,13 +5,13 @@
  * @size: The number of nodes in the list.
  * @value: The value to search
  * Return: Return the value in the list or NULL
- * */
+ */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
 	size_t step, step_size;
 	listint_t *node, *jump;
 
-	if (list ==NULL || size == 0)
+	if (list == NULL || size == 0)
 		return (NULL);
 
 	step = 0;
