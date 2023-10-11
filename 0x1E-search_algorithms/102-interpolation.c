@@ -20,7 +20,7 @@ int interpolation_search(int *array, size_t size, int value)
 			printf("Value checked array[%ld] = [%d]\n", i, array[i]);
 		else
 		{
-			printf("Valiue checked array[%ld] is out of range\n", i);
+			printf("Value checked array[%ld] is out of range\n", i);
 			break;
 		}
 
